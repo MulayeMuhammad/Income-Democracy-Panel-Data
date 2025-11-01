@@ -171,7 +171,7 @@ library(dplyr)      # Data manipulation
 
 The scatter plot shows a clear positive relationship between log GDP per capita and democracy across countries in 1999. However, this relationship is **not causal** once panel data methods are applied.
 
-<img src="output/figures/income_democracy_1999.png" width="600" alt="Income and Democracy Cross-Section">
+<img src="figure1.png" width="600" alt="Income and Democracy Cross-Section">
 
 ---
 
