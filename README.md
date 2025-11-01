@@ -160,77 +160,10 @@ library(ggplot2)    # Visualizations
 library(dplyr)      # Data manipulation
 ```
 
-### Code Structure
 
-```
-Income-Democracy-Panel-Data/
-│
-├── data/
-│   ├── DemocracyIncome.csv          # Main dataset
-│   └── data_description.txt
-│
-├── scripts/
-│   ├── 01_data_preparation.R        # Data cleaning and transformation
-│   ├── 02_pooled_ols.R              # Pooled OLS estimation
-│   ├── 03_fixed_effects.R           # Within estimator
-│   ├── 04_anderson_hsiao.R          # IV estimation
-│   ├── 05_gmm_estimation.R          # Arellano-Bond GMM
-│   ├── 06_diagnostic_tests.R        # AR tests, Hansen tests
-│   └── 07_visualizations.R          # Plots and figures
-│
-├── output/
-│   ├── tables/                      # Regression tables
-│   ├── figures/                     # Plots (Figure 1, etc.)
-│   └── results_summary.txt
-│
-├── docs/
-│   ├── TP_PANEL_DATA_ECONOMETRICS.pdf    # Full report
-│   ├── presentation.pdf                   # Slides
-│   └── acemoglu_et_al_2008.pdf           # Original paper
-│
-├── README.md                        # This file
-├── LICENSE
-└── .gitignore
-```
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-```r
-# Install required packages
-install.packages(c("plm", "lmtest", "sandwich", "stargazer", "ggplot2", "dplyr"))
-```
-
-### Running the Analysis
-
-```r
-# Clone the repository
-git clone https://github.com/MulayeMuhammad/Income-Democracy-Panel-Data.git
-cd Income-Democracy-Panel-Data
-
-# Set working directory in R
-setwd("path/to/Income-Democracy-Panel-Data")
-
-# Load data
-source("scripts/01_data_preparation.R")
-
-# Run main analysis
-source("scripts/02_pooled_ols.R")
-source("scripts/03_fixed_effects.R")
-source("scripts/04_anderson_hsiao.R")
-source("scripts/05_gmm_estimation.R")
-
-# Run diagnostic tests
-source("scripts/06_diagnostic_tests.R")
-
-# Generate visualizations
-source("scripts/07_visualizations.R")
-```
-
----
 
 ## 📊 Results Visualization
 
