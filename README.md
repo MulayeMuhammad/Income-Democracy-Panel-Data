@@ -245,9 +245,6 @@ For questions or collaborations related to this project:
 
 ---
 
-<p align="center">
-  <i>⭐ If you find this project useful, please consider giving it a star!</i>
-</p>
 
 <p align="center">
   Made with ❤️ by <a href="https://github.com/MulayeMuhammad">Moulaye Ahmed</a>
