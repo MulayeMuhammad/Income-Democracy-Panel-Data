@@ -1,4 +1,4 @@
-# Panel Data Econometrics: Income and Democracy Revisited
+# Revisiting the Relationship Between Income and Democracy Using Panel Econometrics : An Analysis Based on the Article by Acemoglu, Johnson, Robinson, and Yared (2008)
 
 [![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)](https://www.r-project.org/)
 [![Panel Data](https://img.shields.io/badge/Panel%20Data-Econometrics-blue)](https://github.com/MulayeMuhammad/Income-Democracy-Panel-Data)
@@ -13,7 +13,6 @@ This project replicates and extends the seminal work of **Acemoglu, Johnson, Rob
 ## 👥 Authors
 
 - **Moulaye Ahmed BRAHIM** - Data Scientist & Statistician-Economist Engineer
-- **Zeinebou TAKI** - Co-author
 
 **Supervisor**: Ilyes BOUMAHDI
 
